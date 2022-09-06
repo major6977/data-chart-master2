@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.main-container {
+    display: grid;
+    position: relative; 
+    height: 90vh;
+    width: 95vw;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 11% 33% 37%; 
+    margin: 0 auto;
+    border-top: 9px solid #5D6576;
+    
+    background-color: #5D6576;
+}
+
+.container-a {
+     display: flex; 
+    align-items: center;
+    grid-column: span 3;
+    grid-row: span 1;
+    margin-bottom: 18px;
+    color: white;
+    font-size: 1vw;
+    background-color: #071228;
+}
+
+h1 {
+    margin-left: 20px;
+}
+
+p {
+    color: white;
+}
+
+.container-bc {
+    display: grid;
+    grid-template-columns: repeat(14, 20px); 
+    grid-template-areas: 
+    "days sessions symbols nu br asd g1c g2c"
+    "days sessions symbols nu br asd g1c g2c"
+    "days sessions symbols nu br asd g1c g2c";
+    /* grid-template-rows: 33%;
+    grid-column: span 3;
+    grid-row: span 1; */
+    /* margin: 0 8px;
+    margin-bottom: 9px; */
+    
+}
+
+.days {
+    grid-area: days;
+}
+
+.symbols {
+    grid-area: symbols;
+}
+
+.nu {
+    grid-area: nu;
+}
+
+.br {
+    grid-area: br;
+}
+
+.asd {
+    grid-area: asd;
+}
+
+.g1c {
+    grid-area: g1c;
+}
+
+.g2c {
+    grid-area: g2c;
+}
+
+.container-b {
+    
+    display: flex; 
+    position: relative;
+    margin-right: 8px;
+    grid-column: span 1;
+    grid-row: span 2;
+    background-color: #071228;
+}
+
+.titles {
+     display: flex;
+     color: white;
+}
+.sec {
+    grid-template-areas: 
+      "sessions durations";
+
+}
+
+.durations {
+    position: relative;
+    right: 25px;
+}
+
+.titles p {
+    margin-right: 12px;
+    font-size: 12px;
+}
+
+  .numbers div {
+      display: grid;
+      
+     
+}  
+
+.numbers {
+   column-gap: 20px;  
+}
+
+.sessions {
+    /* margin: 15px 20px 10px 0; */
+}
+
+.symbols {
+    width: 80px;
+    position: relative;
+    top: 40px;
+}
+
+.tri {
+    clip-path: polygon(46% 0, 43% 11%, 51% 11%);
+    margin-left: 10px; 
+    /* top: 25px;  */
+    width: 80px;
+    height: 70px;
+    /* position: relative;    */
+    /* display: inline-block;  */
+    background-color: #20aa20;
+}
+
+.number1 {
+    /* display: flex; */
+     /* position: relative;
+    width: 85px; */
+} 
+
+.goals {
+    text-align: center;
+}
+
+.days {
+    position: relative;
+    height: 100%;
+    width: 19%;
+    
+}
+
+.days div {
+    position: absolute;
+    font-size: 12px;
+    top: 64%;
+    transform: translateY(-50%);
+    height: 80%;
+    margin-left: 12px;
+}
+
+.this-week {
+    margin: 30px 0 30px 0px;
+}
+
+.container-c {
+    grid-column: span 1;
+    grid-row: span 2;
+    background-color: #071228;
+}
+
+.container-def {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 37%;
+    margin: 0 8px;
+    grid-column: span 3;
+    grid-row: span 1;
+}
+
+.container-d {
+    grid-column: span 1;
+    grid-row: span 2;
+    margin-right: 8px;
+    background-color: #071228;
+}
+
+.container-e {
+    grid-column: span 1;
+    grid-row: span 2;
+    margin-right: 8px;
+    background-color: #071228;
+}
+
+.container-f {
+    grid-column: span 1;
+    grid-row: span 2;
+    background-color: #071228;
+}
