@@ -51,7 +51,6 @@ body {
   background-color: #071228;
 }
 .cont-a h2 {
-  /* padding: 10px 20px 15px 20px; */
   align-self: center;
   padding-left: 15px;
 }
@@ -99,9 +98,8 @@ body {
 .tri-div {
   display: flex;
   margin: 0 0 20px 10px;
-  /* width: 75px; */
-  /* width: 80px; */
 }
+
 .tri-div div {
   width: 55px;
   text-align: right;
@@ -111,9 +109,7 @@ body {
 .asd .tri-div div {
   width: 70px;
 }
-/* .days {
-    width: 100px;
-} */
+
 .days p {
   font-size: x-small;
   padding-left: 10px;
@@ -374,8 +370,6 @@ body {
   transform: rotate(180deg);
 }
 #asdTriGreen {
-  /* position: relative; */
-  /* display: none;  */
   background-color: green;
   width: 100px;
   text-align: right;
@@ -564,10 +558,6 @@ a {
     justify-content: center;
   }
 
-  .cont-bars-num3 {
-    /* margin-left: 5px !i; */
-  }
-
   #buttons {
     margin-left: 0;
   }
@@ -607,7 +597,6 @@ a {
 
   #red-tri-sess-mobile {
     display: none;
-    /* margin-bottom: -10px; */
   }
 
   #red-tri-nu-mobile {
@@ -659,30 +648,25 @@ a {
   }
 
   .hidden-mobile {
-    /* display: grid; */
     visibility: hidden;
     grid-column: 1 / span 1;
     grid-row: 1 / span 1;
   }
 
   #today {
-    /* display: grid; */
     grid-column: 2 / span 1;
     grid-row: 1 / span 1;
   }
   #this-week {
-    /* display: grid; */
     grid-column: 4 / span 1;
     grid-row: 1 / span 1;
   }
   #this-month {
-    /* display: grid; */
     grid-column: 6 / span 1;
     grid-row: 1 / span 1;
   }
 
   .sessions-title {
-    /* display: grid; */
     grid-column: 1 / span 1;
     grid-row: 2 / span 1;
   }
@@ -815,8 +799,6 @@ a {
 
   .title {
     margin-top: 0;
-
-    /* Average Session Duration */
   }
   .asd-title {
     grid-row: 5 / span 1;

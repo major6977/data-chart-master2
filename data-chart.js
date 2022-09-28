@@ -24,7 +24,7 @@ function display_information() {
 }
 display_information();
 
-// New Funtion Sessions
+// New Function Sessions
 
 setInterval(function () {
   function getRandomNumbers(min, max) {
@@ -35,8 +35,6 @@ setInterval(function () {
   let sessionsTriGreen = document.querySelector("#sessionsTriGreen");
   document.querySelector("#sessionsNums").innerText =
     sessionsNumsRandom.toLocaleString("en-US");
-
-  //  let sessionsTriRed = document.querySelector("#sessionsTriRed");
 
   if (sessionsNumsRandom < 2324) {
     sessionsTriRed.style.backgroundColor = "red";
@@ -60,7 +58,6 @@ setInterval(function () {
   let sessionsTriGreen = document.querySelector("#grn-tri-sess-mobile");
   document.querySelector("#sessions-numbs-mobile").innerText =
     sessionsNumsRandom.toLocaleString("en-US");
-  //  let sessionsTriRed = document.querySelector("#sessionsTriRed");
 
   if (sessionsNumsRandom < 2324) {
     sessionsTriRed.style.backgroundColor = "red";
@@ -382,7 +379,7 @@ setInterval(function () {
   }
 }, 4000);
 
-//   Referal Aqua Bar
+//   Referral Aqua Bar
 
 setInterval(function () {
   function getRandomNumbers(min, max) {
